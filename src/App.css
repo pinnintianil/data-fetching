@@ -1,0 +1,25 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.user-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.user-card {
+  background-color: white;
+  padding: 20px;
+  border: 1px soild #ddd;
+  border-radius: 10px;
+}
+
+.user-card h2 {
+  color: blue;
+}
+
+.user-card p {
+  color: gray;
+}
